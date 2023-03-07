@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+class admissionform{
+       student(){
+
+        let a =prompt("enter your standerd")
+
+   if (10<=a && 12>=a){
+    console.log(this.std+""+":you are  eligible");
+   }
+   
+   else if (12<=a){
+      console.log(this.std+":you are not eligible");
+   }
+
+   else {
+    console.log(this.std+":you are kids")
+   }
+}
+  
+
+
+
+  fill(studentstd) {
+    return this.std=studentstd
+  }
+
+    
+       
+}
+
+
+let student=   new admissionform  ();
+    student.fill(prompt(" admission "))
+    student. student()
+    console.log(student);   
+
+    </script>
+</body>
+</html>
